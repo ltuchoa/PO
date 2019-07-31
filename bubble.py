@@ -52,5 +52,5 @@ for s in size:
     time.append(timeit.timeit("sort({})".format(list),setup="from __main__ import sort", number=1))
     print(s)
 
-desenhaGrafico(size, time,'Bolha_Tempo', "Numbers", "Time")
-desenhaGrafico(size, op,'Bolha_Op', "Numbers", "Operations")
+desenhaGrafico(size, time,'Bubble_Time')
+desenhaGrafico(size, op,'Bubble_Op')
