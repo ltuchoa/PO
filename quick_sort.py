@@ -60,6 +60,5 @@ for s in size:
                               setup="from __main__ import quicksort", number=1))
     print(s)
 
-desenhaGrafico(size, time, "Size", "Time",
-               "/Users/LTUCH/Documents/IFCE/PO/Quick_Sort2.png")
+desenhaGrafico(size, time, "Size", "Time", "Quick_Sort.png")
 print("FINISH")
