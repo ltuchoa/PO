@@ -40,6 +40,5 @@ for s in size:
                               setup="from __main__ import sort", number=1))
     print(s)
 
-desenhaGrafico(size, time, "Size", "Time",
-               "/Users/LTUCH/Desktop/Count_Sort.png")
+desenhaGrafico(size, time, "Size", "Time", "Count_Sort.png")
 print("FINISH")
